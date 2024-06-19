@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A726BD2C2456980072C5BB /* TabBarEggproduced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A726BC2C2456980072C5BB /* TabBarEggproduced.swift */; };
+		18A726BF2C245B230072C5BB /* TabBarEggSOLD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A726BE2C245B230072C5BB /* TabBarEggSOLD.swift */; };
+		18A726C12C2486260072C5BB /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A726C02C2486260072C5BB /* InventoryViewController.swift */; };
+		18EB55F42C21E5850022938B /* PoultryInventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB55F32C21E5850022938B /* PoultryInventoryViewController.swift */; };
+		18EB55FC2C21EA920022938B /* PoultryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB55FB2C21EA920022938B /* PoultryCell.swift */; };
+		18EB55FE2C21EADF0022938B /* PoultryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EB55FD2C21EADF0022938B /* PoultryCell.xib */; };
+		18EB56052C21EE570022938B /* Poultryfarm+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB56032C21EE570022938B /* Poultryfarm+CoreDataClass.swift */; };
+		18EB56062C21EE570022938B /* Poultryfarm+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB56042C21EE570022938B /* Poultryfarm+CoreDataProperties.swift */; };
+		18EB56082C2214CB0022938B /* feedtipswebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB56072C2214CA0022938B /* feedtipswebViewController.swift */; };
+		18EB560A2C2219920022938B /* feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB56092C2219920022938B /* feedback.swift */; };
+		18EB560C2C2230BD0022938B /* eggrate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB560B2C2230BD0022938B /* eggrate.swift */; };
+		18FB91182C20D46F006D395D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB91172C20D46F006D395D /* AppDelegate.swift */; };
+		18FB911A2C20D46F006D395D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB91192C20D46F006D395D /* SceneDelegate.swift */; };
+		18FB911C2C20D46F006D395D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB911B2C20D46F006D395D /* ViewController.swift */; };
+		18FB911F2C20D46F006D395D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18FB911E2C20D46F006D395D /* Base */; };
+		18FB91222C20D46F006D395D /* poultry_farm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18FB91202C20D46F006D395D /* poultry_farm.xcdatamodeld */; };
+		18FB91242C20D472006D395D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FB91232C20D472006D395D /* Assets.xcassets */; };
+		18FB91272C20D472006D395D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18FB91262C20D472006D395D /* Base */; };
+		18FB91322C20D473006D395D /* poultry_farmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB91312C20D473006D395D /* poultry_farmTests.swift */; };
+		18FB913C2C20D473006D395D /* poultry_farmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB913B2C20D473006D395D /* poultry_farmUITests.swift */; };
+		18FB913E2C20D473006D395D /* poultry_farmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB913D2C20D473006D395D /* poultry_farmUITestsLaunchTests.swift */; };
+		18FB914B2C21565B006D395D /* eggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB914A2C21565B006D395D /* eggViewController.swift */; };
+		18FB914D2C216572006D395D /* mortalityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB914C2C216572006D395D /* mortalityViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FB912E2C20D473006D395D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FB910C2C20D46F006D395D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FB91132C20D46F006D395D;
+			remoteInfo = "poultry farm";
+		};
+		18FB91382C20D473006D395D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FB910C2C20D46F006D395D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FB91132C20D46F006D395D;
+			remoteInfo = "poultry farm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A726BC2C2456980072C5BB /* TabBarEggproduced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarEggproduced.swift; sourceTree = "<group>"; };
+		18A726BE2C245B230072C5BB /* TabBarEggSOLD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarEggSOLD.swift; sourceTree = "<group>"; };
+		18A726C02C2486260072C5BB /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		18EB55F32C21E5850022938B /* PoultryInventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoultryInventoryViewController.swift; sourceTree = "<group>"; };
+		18EB55FB2C21EA920022938B /* PoultryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoultryCell.swift; sourceTree = "<group>"; };
+		18EB55FD2C21EADF0022938B /* PoultryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PoultryCell.xib; sourceTree = "<group>"; };
+		18EB56032C21EE570022938B /* Poultryfarm+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Poultryfarm+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18EB56042C21EE570022938B /* Poultryfarm+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Poultryfarm+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		18EB56072C2214CA0022938B /* feedtipswebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedtipswebViewController.swift; sourceTree = "<group>"; };
+		18EB56092C2219920022938B /* feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedback.swift; sourceTree = "<group>"; };
+		18EB560B2C2230BD0022938B /* eggrate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggrate.swift; sourceTree = "<group>"; };
+		18FB91142C20D46F006D395D /* poultry farm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poultry farm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FB91172C20D46F006D395D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18FB91192C20D46F006D395D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18FB911B2C20D46F006D395D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18FB911E2C20D46F006D395D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FB91212C20D46F006D395D /* poultry_farm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = poultry_farm.xcdatamodel; sourceTree = "<group>"; };
+		18FB91232C20D472006D395D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FB91262C20D472006D395D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FB91282C20D472006D395D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FB912D2C20D473006D395D /* poultry farmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poultry farmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FB91312C20D473006D395D /* poultry_farmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poultry_farmTests.swift; sourceTree = "<group>"; };
+		18FB91372C20D473006D395D /* poultry farmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poultry farmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FB913B2C20D473006D395D /* poultry_farmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poultry_farmUITests.swift; sourceTree = "<group>"; };
+		18FB913D2C20D473006D395D /* poultry_farmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poultry_farmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18FB914A2C21565B006D395D /* eggViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggViewController.swift; sourceTree = "<group>"; };
+		18FB914C2C216572006D395D /* mortalityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mortalityViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FB91112C20D46F006D395D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FB912A2C20D473006D395D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FB91342C20D473006D395D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FB910B2C20D46F006D395D = {
+			isa = PBXGroup;
+			children = (
+				18EB56032C21EE570022938B /* Poultryfarm+CoreDataClass.swift */,
+				18EB56042C21EE570022938B /* Poultryfarm+CoreDataProperties.swift */,
+				18FB91162C20D46F006D395D /* poultry farm */,
+				18FB91302C20D473006D395D /* poultry farmTests */,
+				18FB913A2C20D473006D395D /* poultry farmUITests */,
+				18FB91152C20D46F006D395D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FB91152C20D46F006D395D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FB91142C20D46F006D395D /* poultry farm.app */,
+				18FB912D2C20D473006D395D /* poultry farmTests.xctest */,
+				18FB91372C20D473006D395D /* poultry farmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FB91162C20D46F006D395D /* poultry farm */ = {
+			isa = PBXGroup;
+			children = (
+				18FB91172C20D46F006D395D /* AppDelegate.swift */,
+				18FB91192C20D46F006D395D /* SceneDelegate.swift */,
+				18FB911B2C20D46F006D395D /* ViewController.swift */,
+				18FB914A2C21565B006D395D /* eggViewController.swift */,
+				18A726BC2C2456980072C5BB /* TabBarEggproduced.swift */,
+				18FB911D2C20D46F006D395D /* Main.storyboard */,
+				18A726C02C2486260072C5BB /* InventoryViewController.swift */,
+				18A726BE2C245B230072C5BB /* TabBarEggSOLD.swift */,
+				18EB560B2C2230BD0022938B /* eggrate.swift */,
+				18EB56092C2219920022938B /* feedback.swift */,
+				18EB55FD2C21EADF0022938B /* PoultryCell.xib */,
+				18EB55F32C21E5850022938B /* PoultryInventoryViewController.swift */,
+				18EB56072C2214CA0022938B /* feedtipswebViewController.swift */,
+				18EB55FB2C21EA920022938B /* PoultryCell.swift */,
+				18FB914C2C216572006D395D /* mortalityViewController.swift */,
+				18FB91232C20D472006D395D /* Assets.xcassets */,
+				18FB91252C20D472006D395D /* LaunchScreen.storyboard */,
+				18FB91282C20D472006D395D /* Info.plist */,
+				18FB91202C20D46F006D395D /* poultry_farm.xcdatamodeld */,
+			);
+			path = "poultry farm";
+			sourceTree = "<group>";
+		};
+		18FB91302C20D473006D395D /* poultry farmTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FB91312C20D473006D395D /* poultry_farmTests.swift */,
+			);
+			path = "poultry farmTests";
+			sourceTree = "<group>";
+		};
+		18FB913A2C20D473006D395D /* poultry farmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FB913B2C20D473006D395D /* poultry_farmUITests.swift */,
+				18FB913D2C20D473006D395D /* poultry_farmUITestsLaunchTests.swift */,
+			);
+			path = "poultry farmUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FB91132C20D46F006D395D /* poultry farm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FB91412C20D473006D395D /* Build configuration list for PBXNativeTarget "poultry farm" */;
+			buildPhases = (
+				18FB91102C20D46F006D395D /* Sources */,
+				18FB91112C20D46F006D395D /* Frameworks */,
+				18FB91122C20D46F006D395D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "poultry farm";
+			productName = "poultry farm";
+			productReference = 18FB91142C20D46F006D395D /* poultry farm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FB912C2C20D473006D395D /* poultry farmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FB91442C20D473006D395D /* Build configuration list for PBXNativeTarget "poultry farmTests" */;
+			buildPhases = (
+				18FB91292C20D473006D395D /* Sources */,
+				18FB912A2C20D473006D395D /* Frameworks */,
+				18FB912B2C20D473006D395D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FB912F2C20D473006D395D /* PBXTargetDependency */,
+			);
+			name = "poultry farmTests";
+			productName = "poultry farmTests";
+			productReference = 18FB912D2C20D473006D395D /* poultry farmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FB91362C20D473006D395D /* poultry farmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FB91472C20D473006D395D /* Build configuration list for PBXNativeTarget "poultry farmUITests" */;
+			buildPhases = (
+				18FB91332C20D473006D395D /* Sources */,
+				18FB91342C20D473006D395D /* Frameworks */,
+				18FB91352C20D473006D395D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FB91392C20D473006D395D /* PBXTargetDependency */,
+			);
+			name = "poultry farmUITests";
+			productName = "poultry farmUITests";
+			productReference = 18FB91372C20D473006D395D /* poultry farmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FB910C2C20D46F006D395D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					18FB91132C20D46F006D395D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					18FB912C2C20D473006D395D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 18FB91132C20D46F006D395D;
+					};
+					18FB91362C20D473006D395D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 18FB91132C20D46F006D395D;
+					};
+				};
+			};
+			buildConfigurationList = 18FB910F2C20D46F006D395D /* Build configuration list for PBXProject "poultry farm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FB910B2C20D46F006D395D;
+			productRefGroup = 18FB91152C20D46F006D395D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FB91132C20D46F006D395D /* poultry farm */,
+				18FB912C2C20D473006D395D /* poultry farmTests */,
+				18FB91362C20D473006D395D /* poultry farmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FB91122C20D46F006D395D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FB91242C20D472006D395D /* Assets.xcassets in Resources */,
+				18FB91272C20D472006D395D /* Base in Resources */,
+				18FB911F2C20D46F006D395D /* Base in Resources */,
+				18EB55FE2C21EADF0022938B /* PoultryCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FB912B2C20D473006D395D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FB91352C20D473006D395D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FB91102C20D46F006D395D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FB911C2C20D46F006D395D /* ViewController.swift in Sources */,
+				18EB56082C2214CB0022938B /* feedtipswebViewController.swift in Sources */,
+				18EB55F42C21E5850022938B /* PoultryInventoryViewController.swift in Sources */,
+				18FB91222C20D46F006D395D /* poultry_farm.xcdatamodeld in Sources */,
+				18EB560C2C2230BD0022938B /* eggrate.swift in Sources */,
+				18A726C12C2486260072C5BB /* InventoryViewController.swift in Sources */,
+				18FB914D2C216572006D395D /* mortalityViewController.swift in Sources */,
+				18FB91182C20D46F006D395D /* AppDelegate.swift in Sources */,
+				18FB911A2C20D46F006D395D /* SceneDelegate.swift in Sources */,
+				18EB56052C21EE570022938B /* Poultryfarm+CoreDataClass.swift in Sources */,
+				18A726BF2C245B230072C5BB /* TabBarEggSOLD.swift in Sources */,
+				18EB56062C21EE570022938B /* Poultryfarm+CoreDataProperties.swift in Sources */,
+				18FB914B2C21565B006D395D /* eggViewController.swift in Sources */,
+				18EB560A2C2219920022938B /* feedback.swift in Sources */,
+				18EB55FC2C21EA920022938B /* PoultryCell.swift in Sources */,
+				18A726BD2C2456980072C5BB /* TabBarEggproduced.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FB91292C20D473006D395D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FB91322C20D473006D395D /* poultry_farmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FB91332C20D473006D395D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FB913E2C20D473006D395D /* poultry_farmUITestsLaunchTests.swift in Sources */,
+				18FB913C2C20D473006D395D /* poultry_farmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FB912F2C20D473006D395D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FB91132C20D46F006D395D /* poultry farm */;
+			targetProxy = 18FB912E2C20D473006D395D /* PBXContainerItemProxy */;
+		};
+		18FB91392C20D473006D395D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FB91132C20D46F006D395D /* poultry farm */;
+			targetProxy = 18FB91382C20D473006D395D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FB911D2C20D46F006D395D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FB911E2C20D46F006D395D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FB91252C20D472006D395D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FB91262C20D472006D395D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FB913F2C20D473006D395D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FB91402C20D473006D395D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FB91422C20D473006D395D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMMS6SL8UM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "poultry farm/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uzair.poultry-farm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18FB91432C20D473006D395D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMMS6SL8UM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "poultry farm/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uzair.poultry-farm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18FB91452C20D473006D395D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uzair.poultry-farmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poultry farm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/poultry farm";
+			};
+			name = Debug;
+		};
+		18FB91462C20D473006D395D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uzair.poultry-farmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poultry farm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/poultry farm";
+			};
+			name = Release;
+		};
+		18FB91482C20D473006D395D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uzair.poultry-farmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poultry farm";
+			};
+			name = Debug;
+		};
+		18FB91492C20D473006D395D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uzair.poultry-farmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poultry farm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FB910F2C20D46F006D395D /* Build configuration list for PBXProject "poultry farm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FB913F2C20D473006D395D /* Debug */,
+				18FB91402C20D473006D395D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FB91412C20D473006D395D /* Build configuration list for PBXNativeTarget "poultry farm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FB91422C20D473006D395D /* Debug */,
+				18FB91432C20D473006D395D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FB91442C20D473006D395D /* Build configuration list for PBXNativeTarget "poultry farmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FB91452C20D473006D395D /* Debug */,
+				18FB91462C20D473006D395D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FB91472C20D473006D395D /* Build configuration list for PBXNativeTarget "poultry farmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FB91482C20D473006D395D /* Debug */,
+				18FB91492C20D473006D395D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18FB91202C20D46F006D395D /* poultry_farm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18FB91212C20D46F006D395D /* poultry_farm.xcdatamodel */,
+			);
+			currentVersion = 18FB91212C20D46F006D395D /* poultry_farm.xcdatamodel */;
+			path = poultry_farm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18FB910C2C20D46F006D395D /* Project object */;
+}
